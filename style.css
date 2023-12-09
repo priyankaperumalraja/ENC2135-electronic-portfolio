@@ -1,0 +1,172 @@
+/*Fonts*/
+.cc {
+    font-family: "Cascadia Code"; /*Cascadia Code*/
+  }
+.gmnd{
+font-family: Garamond, Georgia, serif; /*Garamond*/
+}
+.mntsrrt{
+font-family: 'Montserrat', sans-serif; /*Montserrat*/
+}
+.qcksnd{
+font-family: 'Quicksand', sans-serif; /*Quicksand*/
+}
+.dosis{
+font-family: 'Dosis' , sans-serif; /*Dosis*/
+}
+.raleway{
+font-family: 'Raleway', sans-serif;
+}
+
+/* Text Customization*/
+.black-text {
+color: #000000;
+}
+.white-text{
+color: white;
+}
+.three-rem{
+font-size: 3rem;
+}
+.two-rem{
+font-size: 2rem;
+}
+
+/* Background Customization */
+.grey-background{
+background-color: #00000020;
+}
+.navy-background{
+  background-color: #151532;
+  }
+.blue-background{
+background-color: lightblue;
+}
+.bluenavy-background{
+  background-color: #04364A
+}
+.white-background{
+  background-color: whitesmoke;
+  
+}
+
+/* Border Customization */
+.grey-border{
+border-color: #00000050;
+}
+
+/* Padding */
+.px-7{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.py-t-7{
+  padding-top: 10%;
+}
+.py-b-7{
+  padding-bottom: 10%;
+}
+.padding-title{
+  padding-top: 7%;
+  padding-bottom: 4%;
+}
+
+/* Item Specific Customization */
+#hr-line{
+color: #00000090;
+margin-top: 0;
+margin-bottom: 20px;
+}
+
+/* .animation{
+background-color: black;
+animation-name: test;
+animation-duration: 5s;
+}
+
+@keyframes test {
+from {background-color: blue;}
+to {background-color: yellow;}
+} */
+
+/* Homepage spinning squares animation */
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body{
+font-family: 'Exo', sans-serif;
+}
+
+
+.context {
+width: 100%;
+position: absolute;
+top:50vh;
+
+}
+
+.context h1{
+text-align: center;
+color: #fff;
+font-size: 50px;
+}
+
+
+.area{
+width: 100%;
+height:60vh;  
+margin: 0;
+padding: 0;
+}
+
+.full-area{
+  width: 100%;
+  height: 100%;
+}
+
+.partial-area{
+  width: 90%;
+  height: 90%;
+}
+
+.center{
+margin-top: 5%;
+margin-bottom: 5%;
+}
+
+.height60vph{
+height: 45vh;
+}
+
+#contact-email-font-size{
+font-size: 110%;
+}
+
+.container{
+  display: inline-block;
+  gap: 10px;
+}
+
+.w-50{
+  height: 60%;
+}
+
+.width-50{
+  width: 70%;
+}
+
+.grey-area{
+  width: 100%;
+  height: 50%;  
+  margin: 0;
+  padding: 0;
+}
+
+.indented-paragraph {
+  text-indent: 20px; /* Adds an indentation of 20 pixels */
+  white-space: pre-line; /* Preserves line breaks and spaces */
+}
